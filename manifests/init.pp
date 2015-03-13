@@ -249,7 +249,7 @@ class sensu (
   $gem_path                 = '',
   $log_level                = 'info',
   $dashboard                = false,
-  $init_stop_max_wait     = 10,
+  $init_stop_max_wait       = 10,
 ){
 
   validate_bool($client, $server, $api, $install_repo, $purge_config, $safe_mode, $manage_services)
